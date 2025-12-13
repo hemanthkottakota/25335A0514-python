@@ -1,0 +1,1 @@
+print(f"concatination of two strings :{input("enter string1")+input("enter string2")}")
