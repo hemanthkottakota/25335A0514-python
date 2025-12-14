@@ -14,3 +14,4 @@ for angle in range(0,361,30):
    print(f"sin {angle}: {round(math.sin(rad),1)}")
    print(f"cos {angle}: {round(math.cos(rad),1)}")
    print(f"tan {angle}: {round(math.tan(rad),1)}")
+   

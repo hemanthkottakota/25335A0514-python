@@ -1,3 +1,3 @@
 import math
 r = float(input("enter radius"))
-print(round(math.pi*r*r,2))
+print(f" area of circle : {round(math.pi*r*r,2)}")
