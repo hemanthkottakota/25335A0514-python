@@ -1,0 +1,11 @@
+import numpy as np
+matrix1 = np.array([[10,10,10],[10,10,10]])
+matrix2 = np.array([[2,2,2],[2,2,2]])
+print(matrix1.ndim)
+print(matrix1.shape)
+print(f'sum of two matrix :\n{matrix1+matrix2}')
+print(f'subtraction of two matrix :\n{matrix1-matrix2}')
+print(f'multiplication of two matrix :\n{matrix1*matrix2}')
+print(f'division of two matrix :\n{matrix1/matrix2}')
+print(f'modullas of two matrix :\n{matrix1%matrix2}')
+print(f'exponention of two matrix :\n{matrix1**matrix2}')
