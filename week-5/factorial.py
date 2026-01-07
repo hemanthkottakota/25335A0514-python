@@ -17,10 +17,10 @@ def factorial_recursion(n):
 while True:
     choice = int(input("enter 1 - recurrsion \nenter 2 - non recurssion\n 3 - exit"))
     if choice == 1:
-        num = int(input("enter a number"))
+        num = int(input("enter a postive number"))
         value = factorial_recursion(num)
     elif choice == 2:
-        num = int(input("enter a number"))
+        num = int(input("enter a postive number"))
         value = factorial(num)
     else:
         break
