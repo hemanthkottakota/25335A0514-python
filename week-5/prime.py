@@ -18,7 +18,7 @@ def recurPrime(num,i = 2):
     if num % i == 0:
         return False
     else:
-        return recurPython(num,i+1)
+        return recurPrime(num,i+1)
 
 
 while True:
