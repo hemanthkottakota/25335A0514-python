@@ -24,4 +24,4 @@ while True:
         value = factorial(num)
     else:
         break
-    print(f'"factorial of {num} : {value}')
+    print(f'factorial of {num} : {value}')

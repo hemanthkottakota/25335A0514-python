@@ -11,7 +11,7 @@ def prime(num):
 
 
 
-def recurPython(num,i = 2):
+def recurPrime(num,i = 2):
     count = 0
     if i>math.sqrt(num):
         return True
@@ -25,7 +25,7 @@ while True:
     choice = int(input("enter 1 - recurrsion \nenter 2 - non recurssion\n 3 - exit"))
     if choice == 1:
         num = int(input("enter a number"))
-        call = recurPython(num)
+        call = recurPrime(num)
         print(f"{num} is prime\n") if call !=0 else print(f"{num} is not a prime\n")
     elif choice == 2:
         num = int(input("enter a number"))
