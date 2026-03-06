@@ -1,0 +1,4 @@
+25335a0514
+Welcome to Python lab
+internal1
+internal2

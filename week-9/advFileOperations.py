@@ -1,0 +1,10 @@
+f = open("file1.txt", "w+")
+f.write("Hemanth\n")
+f.flush()
+print(f.tell())
+f.seek(0)
+print(f.read(6))
+f.seek(3,0)
+print(f.read())
+
+f.close()
