@@ -4,7 +4,7 @@ f.flush()
 print(f.tell())
 f.seek(0)
 print(f.read(6))
-f.seek(3,0)
+f.seek(5,0)
 print(f.read())
 
 f.close()
